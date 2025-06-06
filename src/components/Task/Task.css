@@ -1,0 +1,22 @@
+.task {
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.btn-edit,
+.btn-remove {
+    color: darkblue;
+    margin-left:  10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn-edit:hover,
+.btn-remove:hover {
+    color: rgb(132, 132, 255);
+}
+
+.hide {
+    display: none;
+}
